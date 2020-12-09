@@ -11,12 +11,8 @@ export const ButtonCustom = () => {
         <Button variant="warning">Warring</Button> {' '}
         <Button variant="outline-success">Success</Button> {' '}
         <Button as="input" type="button" value="Input" />{' '}
-        <Button variant="secondary" size="lg">
-      Large button
-    </Button>{' '} <br/> <br/>
-    <Button variant="danger" size="lg" block>
-    Block level
-  </Button> <br/> <br/>
+        <Button variant="secondary" size="lg">Large button</Button>{' '} <br/> <br/>
+        <Button variant="danger" size="lg" block> Block level</Button> <br/> <br/>
   
   {/* --------------------Button Groups------------------------------*/}
   <Button variant="outline-primary">

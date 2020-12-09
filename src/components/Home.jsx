@@ -7,15 +7,17 @@ import {AlrtShow} from "./AlrtShow";
 import {TabExm} from "./TabExm";
 import {Prog} from "./Prog";
 import {TableCont} from "./TableCont";
-import {Image} from "react-bootstrap";
-import"./Home.css"
+import {ImageComponent} from "./ImageComponent";
+import { FormTab } from "./FormTab";
+import {CardComp} from "./CardComp";
+import {CarousalPrac} from "./CarousalPrac";
+import {IconExm} from "./IconExm";
+import {Table} from "./Table"
 
 
 export const Home = () => {
   return (
     <div className="App">
-       <Image src="Assets/img.jpg"  roundedCircle alt="img" className="img-position"/>
-
     <ButtonCustom/>
     <NavComp/>
     <Notif/>
@@ -24,7 +26,12 @@ export const Home = () => {
     <TabExm/>
     <Prog/>
     <TableCont/>
-   
+    <ImageComponent/>
+    <FormTab/>
+    <CardComp/>
+    <CarousalPrac/>
+    <IconExm/>
+    <Table/>
     </div>
   );
 };
